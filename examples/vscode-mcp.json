@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "pauhu": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@pauhu/mcp"]
+    }
+  }
+}

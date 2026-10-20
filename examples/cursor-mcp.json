@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pauhu": {
+      "command": "npx",
+      "args": ["-y", "@pauhu/mcp"]
+    }
+  }
+}
