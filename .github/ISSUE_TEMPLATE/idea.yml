@@ -1,0 +1,26 @@
+name: Idea
+description: Something that would make Pauhu more useful to you or your agent.
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Please do not post keys, tokens, receipts or personal data."
+  - type: textarea
+    id: job
+    attributes:
+      label: What you are trying to get done
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What happens today
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you propose
+      description: A tool shape, field or page change is welcome.
+    validations:
+      required: true

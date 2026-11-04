@@ -1,0 +1,37 @@
+name: Website problem
+description: A page on pauhu.ai, pauhu.eu, pauhu.com or pauhu.dev is wrong, broken or hard to use, for people or for machines.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Please do not post keys, tokens, receipts or personal data."
+  - type: input
+    id: url
+    attributes:
+      label: Page address
+      description: The exact address, including llms.txt, a catalogue feed or any other machine-readable page.
+      placeholder: https://pauhu.ai/
+    validations:
+      required: true
+  - type: textarea
+    id: found
+    attributes:
+      label: What the page says or does
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What it should say or do
+      description: Exact replacement words are welcome. If it should match another page or feed, give that address.
+    validations:
+      required: true
+  - type: dropdown
+    id: reader
+    attributes:
+      label: Who hit this
+      options:
+        - A person
+        - An agent or other machine
+    validations:
+      required: true

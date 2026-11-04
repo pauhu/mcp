@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://pauhu.ai/cybersecurity/
+    about: Please do not report a vulnerability in a public issue. See SECURITY.md in this repository.
+  - name: Account, balance or payment help
+    url: https://pauhu.ai/support
+    about: Anything about your own account or receipts stays private. Please do not post it here.
+  - name: Question or setup help
+    url: https://github.com/pauhu/mcp/discussions
+    about: Ask in Discussions.

@@ -1,0 +1,54 @@
+name: Connector or API problem
+description: The connector, a tool or the API did not behave as documented.
+labels: ["bug", "area:machine clients"]
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Please do not post keys, tokens, receipts or personal data."
+  - type: input
+    id: client
+    attributes:
+      label: MCP client or HTTP client, with version
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Connector version
+      description: The installed version of @pauhu/mcp, if you use it.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name or API address
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Smallest request that shows the problem
+      description: Leave out keys and tokens.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: found
+    attributes:
+      label: What came back
+      description: The status and the response, with keys and tokens left out.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and where it is documented
+    validations:
+      required: true
+  - type: dropdown
+    id: reader
+    attributes:
+      label: Who hit this
+      options:
+        - A person
+        - An agent or other machine
+    validations:
+      required: true
