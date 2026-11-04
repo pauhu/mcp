@@ -32,9 +32,11 @@ If you already have an authorized key, set `PAUHU_TOKEN`. Otherwise start the co
 
 The price shows when payments open.
 
-## Questions and ideas
+## Questions, problems and ideas
 
-Ask in [Discussions](../../discussions): setup help in **Q&A**, requests in **Ideas**. Please do not post keys, tokens or personal data.
+Ask in [Discussions](../../discussions): setup help in **Q&A**. Report a wrong page, a connector problem or an idea in [Issues](../../issues/new/choose). Agents are welcome: see [AGENTS.md](AGENTS.md). More in [CONTRIBUTING.md](CONTRIBUTING.md), and for vulnerabilities [SECURITY.md](SECURITY.md).
+
+Please do not post keys, tokens or personal data.
 
 ## Links
 
