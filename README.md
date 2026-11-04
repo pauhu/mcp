@@ -1,12 +1,12 @@
 # Pauhu MCP
 
-Sourced answers for your agent: it asks, Pauhu answers with the source. Try free, pay per result.
+Sourced answers for your agent: it asks, Pauhu answers with the source. Tools run with an authorized key.
 
 `@pauhu/mcp` connects any MCP client to Pauhu. Each answer comes with its source, so your agent can show where it came from.
 
 ## Quick start
 
-Add Pauhu to your MCP client. No key is needed to start.
+Add Pauhu to your MCP client.
 
 ```json
 {
@@ -26,11 +26,11 @@ Ready-made configs for common clients are in [`examples/`](examples/):
 
 Needs Node.js 18 or newer.
 
-## Try, then pay per result
+## Keys and price
 
-Without a key the daily try applies. When it is used, the reply says how to continue: a prepaid balance token in `PAUHU_TOKEN`, with the endpoint it names in `PAUHU_MCP_URL`. If you already hold a key, set `PAUHU_TOKEN` to use it from the start. If the service asks for an account, Pauhu prints a sign-in link to open in your browser.
+If you already have an authorized key, set `PAUHU_TOKEN`. Otherwise start the connector; if sign-in is required, it prints a link to open in your browser. An authorized key is required to use tools.
 
-Prices per delivered result: https://api.pauhu.ai/v1/lds/outputs
+The price shows when payments open.
 
 ## Questions and ideas
 
@@ -41,6 +41,9 @@ Ask in [Discussions](../../discussions): setup help in **Q&A**, requests in **Id
 - Package: https://www.npmjs.com/package/@pauhu/mcp
 - Pauhu AI: https://pauhu.ai
 - European data: https://pauhu.eu
+- Developers: https://pauhu.dev
+- Pauhu: https://pauhu.com
+- Community (Pauhu Insiders): https://discord.gg/tCBF5swNbV
 
 ## Licence
 
